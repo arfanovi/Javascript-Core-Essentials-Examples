@@ -19,3 +19,14 @@ const number = isEven(3);
 console.log(number)
 
 
+// Write a function named ‘findMax’ that takes an array of numbers and returns the largest number in the array.
+
+function findMax(numbersOfArr) {
+    if (numbersOfArr.length === 0){
+        return 'give valid array';
+    }
+    return Math.max(...numbersOfArr);
+
+}
+let arr = (findMax([1,2,3,7,-5,4,6,9,8,-10,10]))
+console.log(arr)
