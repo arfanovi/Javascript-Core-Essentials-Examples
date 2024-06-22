@@ -29,4 +29,12 @@ function findMax(numbersOfArr) {
 
 }
 let arr = (findMax([1,2,3,7,-5,4,6,9,8,-10,10]))
-console.log(arr)
+console.log(arr);
+
+
+// Write a function named ‘reverseString’ that takes a string and returns the string reversed.
+
+function reverseString(string) {
+    return string.split('').reverse().join()
+}
+console.log(reverseString('Arfan H Ovi'))
