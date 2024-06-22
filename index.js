@@ -37,4 +37,20 @@ console.log(arr);
 function reverseString(string) {
     return string.split('').reverse().join()
 }
-console.log(reverseString('Arfan H Ovi'))
+console.log(reverseString('Arfan H Ovi'));
+
+
+// Write a function named ‘filterOddNumbers’ that takes an array of numbers and returns a new array containing only the odd numbers.
+
+function filterOddNumbers(inputNumbers){
+    let oddNumbers = [];
+
+    for(const num of inputNumbers){
+        if (num % 2 !==0){
+            oddNumbers.push(num)
+        }
+    }
+    return oddNumbers;
+}
+
+console.log(filterOddNumbers([1,-2,4,8,9,7,6,-10]))
