@@ -5,4 +5,9 @@
 * 3. Write a function named ‘findMax’ that takes an array of numbers and returns the largest number in the array.
 
 * 4. Write a function named ‘reverseString’ that takes a string and returns the string reversed.
+
 * 5. Write a function named ‘filterOddNumbers’ that takes an array of numbers and returns a new array containing only the odd numbers.
+
+* 6. Write a function named ‘sumArray’ that takes an array of numbers and returns the sum of all elements.
+
+* 7. Write a function named ‘sortArray’ that takes an array of numbers and returns a new array sorted in ascending order

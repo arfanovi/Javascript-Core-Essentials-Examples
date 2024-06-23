@@ -44,7 +44,6 @@ console.log(reverseString('Arfan H Ovi'));
 
 function filterOddNumbers(inputNumbers){
     let oddNumbers = [];
-
     for(const num of inputNumbers){
         if (num % 2 !==0){
             oddNumbers.push(num)
@@ -52,5 +51,32 @@ function filterOddNumbers(inputNumbers){
     }
     return oddNumbers;
 }
+console.log(filterOddNumbers([1,-2,4,8,9,7,6,-10]));
 
-console.log(filterOddNumbers([1,-2,4,8,9,7,6,-10]))
+
+
+// Write a function named ‘sumArray’ that takes an array of numbers and returns the sum of all elements.
+
+
+function sumArray(inputNumbers){
+    let sum = 0;
+    for(const num of inputNumbers){
+        sum += num;
+    }
+    return sum;
+}
+const sumArr = sumArray([5,5,10,10,15,15,20,20,]);
+console.log(sumArr);
+
+
+// Write a function named ‘sortArray’ that takes an array of numbers and returns a new array sorted in ascending order
+
+
+function sortArray(arrayNumbers){
+    let sortArray = [...arrayNumbers];
+    sortArray.sort((a, b) => a - b);
+    return sortArray;
+}
+
+const sortNumbers = (sortArray([1,3,2,5,4,6,9,8,7,10]));
+console.log(sortNumbers)
