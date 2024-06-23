@@ -79,4 +79,17 @@ function sortArray(arrayNumbers){
 }
 
 const sortNumbers = (sortArray([1,3,2,5,4,6,9,8,7,10]));
-console.log(sortNumbers)
+console.log(sortNumbers);
+
+
+// Write a function named ‘capitalizeFirstLetter’ that takes a string and returns the same string with the first letter capitalized. Ex-  console.log(capitalizeFirstLetter("hello"));  // Output:  "Hello"
+
+function capitalizeFirstLetter(stringLetters){
+    if (stringLetters.length === 0){
+        return stringLetters;
+    }
+    return stringLetters[0].toUpperCase() + stringLetters.slice(1);
+}
+const string = capitalizeFirstLetter("ovi");
+console.log(string)
+

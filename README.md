@@ -10,4 +10,7 @@
 
 * 6. Write a function named ‘sumArray’ that takes an array of numbers and returns the sum of all elements.
 
-* 7. Write a function named ‘sortArray’ that takes an array of numbers and returns a new array sorted in ascending order
+* 7. Write a function named ‘sortArray’ that takes an array of numbers and returns a new array sorted in ascending order.
+
+* 8. Write a function named ‘capitalizeFirstLetter’ that takes a string and returns the same string with the first letter capitalized. Ex-  console.log(capitalizeFirstLetter("hello"));  // Output:  "Hello"
+
